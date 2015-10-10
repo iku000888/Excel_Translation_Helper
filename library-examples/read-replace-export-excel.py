@@ -1,6 +1,6 @@
 from openpyxl import load_workbook, Workbook
 #point to the file to be read. Intuitive.
-wb2 = load_workbook('sample-input.xlsx')
+wb2 = load_workbook('sample-input-fortest.xlsx')
 
 #convince your self that sheet names are retireved.
 sheet_names = wb2.get_sheet_names()
