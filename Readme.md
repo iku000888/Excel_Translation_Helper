@@ -4,5 +4,5 @@
 1. Extracts your strings to be translated from an xlsx file, into a csv file.
 
 
-Prerequisites:
-   openpyxl
+## External Prerequisites:
+   openpyxl -> http://openpyxl.readthedocs.org/en/latest/optimized.html
