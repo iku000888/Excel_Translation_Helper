@@ -1,3 +1,11 @@
+"""
+Proto type that does the following:
+
+input:Excel file in language A
+output 1:Copy of input file, with original strings replaced with serial numbers
+output 2:Single xlsx file that contains serial numbers and original texts from input file. 
+"""
+
 from openpyxl import load_workbook, Workbook
 #point to the file to be read. Intuitive.
 wb2 = load_workbook('sample-input-fortest.xlsx')
