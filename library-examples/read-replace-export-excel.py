@@ -6,7 +6,11 @@ output 1:Copy of input file, with original strings replaced with serial numbers
 output 2:Single xlsx file that contains serial numbers and original texts from input file. 
 """
 
+import shutil
 from openpyxl import load_workbook, Workbook
+
+shutil.copyfile('sample-input-fortest.xlsx','sample-input-fortest-out.xlsx')
+
 #point to the file to be read. Intuitive.
 wb2 = load_workbook('sample-input-fortest.xlsx')
 
